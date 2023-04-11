@@ -1,0 +1,29 @@
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "name": "Caneta Azul Manoel Gomes",
+    "price": 15
+}
+
+###
+
+GET http://localhost:3000/products
+
+###
+
+GET http://localhost:3000/products/seuID
+
+###
+
+PUT http://localhost:3000/products/dba363cc-d639-4567-806e-81cfc090da66
+Content-Type: application/json
+
+{
+    "name": "Caneta Azul Manoel Gomes",
+    "price": 5
+}
+
+###
+
+DELETE http://localhost:3000/products/dba363cc-d639-4567-806e-81cfc090da66

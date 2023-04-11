@@ -1,0 +1,23 @@
+{
+  "name": "dia-1",
+  "version": "1.0.0",
+  "description": "Primeiro dia estudando nodeJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alanzink1/day-one-NodeJS.git"
+  },
+  "author": "Alan Rodrigues",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alanzink1/day-one-NodeJS/issues"
+  },
+  "homepage": "https://github.com/Alanzink1/day-one-NodeJS#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
